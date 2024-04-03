@@ -83,6 +83,7 @@ main {
      grid-template-columns: 100px 200px 100px; /* Adjust the widths of columns as needed */
      grid-gap: 10px; /* Adjust the gap between grid items */
      background-image: url("wp8529160.png");
+     padding-top: 10px;
      
 
 }
@@ -120,4 +121,23 @@ main {
 
 
 }
- 
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 equal-width columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows with automatic height */
+    grid-gap: 10px; /* Adjust the gap between grid items */
+    padding-top: 10px;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+  }
+  .bill{
+    height: 100px;
+    width: 100px;
+    margin-left: -226px;
+  }
