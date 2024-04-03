@@ -76,3 +76,38 @@ main {
     margin-bottom: 40px;
     margin-top: 50px;
 }
+.grid{
+    display: grid;
+     width: 800px;
+     height: 200px;
+     grid-template-columns: 100px 200px 100px; /* Adjust the widths of columns as needed */
+     grid-gap: 10px; /* Adjust the gap between grid items */
+     
+
+}
+.row1{
+    display: flex;
+    border: 2px solid black;
+
+}
+.row2{
+    display: flex;
+    border: 2px solid black;
+
+}
+.row3{
+    display: flex;
+    border: 2px solid black;
+
+}
+.row4{
+    display: flex;
+    border: 2px solid black;
+
+}
+.row5{
+    display: flex;
+    border: 2px solid black;
+
+}
+ 
