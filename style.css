@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #272a31;
+    color: #fff;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h11 {
+    margin-left: -219px;
+    color: #F34A1E;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+
+.logo a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #3E3E3E;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    color: #3E3E3E;
+
+}
+
+.menu a {
+    margin-left: 20px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-image: url("mobile_intro_bg.png");
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.grid{
+    display: grid;
+     width: 800px;
+     height: 200px;
+     grid-template-columns: 100px 200px 100px; /* Adjust the widths of columns as needed */
+     grid-gap: 10px; /* Adjust the gap between grid items */
+     background-image: url("wp8529160.png");
+     
+
+}
+.row1{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+
+}
+.row2{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.row3{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.row4{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.row5{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+ 
