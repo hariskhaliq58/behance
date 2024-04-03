@@ -135,9 +135,20 @@ main {
     text-align: center;
     width: 360px;
     height: 200px;
+     display: flex;
+
   }
   .bill{
     height: 100px;
     width: 100px;
-    margin-left: -226px;
+    margin-left: -5px;
+  }
+  .billdata{
+
+  }
+  .footer{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
   }
